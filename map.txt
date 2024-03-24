@@ -1,0 +1,254 @@
+sphere
+{
+    sequenceNumber : 1
+    residueName : MET
+    position : -10 -20 -30
+    color : 1 0 0
+    radius : 3
+}
+sphere
+{
+    sequenceNumber : 2
+    residueName : HIS
+    position : 30 15 20
+    color : 1 0 0
+    radius : 3
+}
+sphere
+{
+    sequenceNumber : 3
+    residueName : ILE
+    position : 15 60 18
+    color : 1 0 0
+    radius : 3
+}
+sphere
+{
+    sequenceNumber : 4
+    residueName : SER
+    position : 45 40 10
+    color : 1 0 0
+    radius : 3
+}
+sphere
+{
+    sequenceNumber : 5
+    residueName : GLN
+    position : -50 20 -30
+    color : 1 0 0
+    radius : 3
+}
+sphere
+{
+    sequenceNumber : 6
+    residueName : HIS
+    position : -30 -15 20
+    color : 1 0 0
+    radius : 3
+}
+sphere
+{
+    sequenceNumber : 7
+    residueName : GLY
+    position : -15 40 18
+    color : 1 0 0
+    radius : 3
+}
+sphere
+{
+    sequenceNumber : 8
+    residueName : ASN
+    position : -45 80 10
+    color : 1 0 0
+    radius : 3
+}
+sphere
+{
+    sequenceNumber : 9
+    residueName : LER
+    position : 60 -20 30
+    color : 1 0 0
+    radius : 3
+}
+sphere
+{
+    sequenceNumber : 10
+    residueName : LYS
+    position : -80 -15 40
+    color : 1 0 0
+    radius : 3
+}
+sphere
+{
+    sequenceNumber : 11
+    residueName : ALA
+    position : -95 -40 18
+    color : 1 0 0
+    radius : 3
+}
+sphere
+{
+    sequenceNumber : 12
+    residueName : MET
+    position : -55 -100 20
+    color : 1 0 0
+    radius : 3
+}
+sphere
+{
+    sequenceNumber : 13
+    residueName : LEU
+    position : -40 40 10
+    color : 1 0 0
+    radius : 3
+}
+sphere
+{
+    sequenceNumber : 14
+    residueName : TRP
+    position : -50 0 70
+    color : 1 0 0
+    radius : 3
+}
+fiber
+{
+    sequenceNumber : 15
+    residueName : GLY
+    color : 0 0 1
+    shape : bazier
+    startPosition : 40.2606043 -30.0000000 70.1907786
+    endPosition : 66 0 112
+    controls : 40 -40 85  60 -25 120
+}
+fiber
+{
+    sequenceNumber : 16
+    residueName : ARG
+    color : 1 0 1
+    shape : spline
+    noControlPoint : 3
+    x : 0 20 80 
+    y : 0 20 5
+    start : 0
+    end : 57
+    axis : 0 -2 1
+    isTranslate : r
+    translate : 0 0 60
+    rotate : -1 0 1 0
+}
+fiber
+{
+    sequenceNumber : 17
+    residueName : ILE
+    color : 1 0 0
+    shape : bazier
+    startPosition : -75 -18 93
+    endPosition : -54.0000000 0.0000000 50.9807621
+    controls : -50 -12 93  -60 -30 80
+}
+fiber
+{
+    sequenceNumber : 18
+    residueName : THR
+    color : 1 0 0
+    shape : spline
+    noControlPoint : 3
+    x : 0 40 58 
+    y : 0 20 0
+    start : 20
+    end : 58
+    axis : -1 -2 0
+    isTranslate : r
+    translate : -54 0 93
+    rotate : 0 0 1 0
+}
+
+fiber
+{
+    sequenceNumber : 19
+    residueName : THR
+    color : 0 0 1
+    shape : bazier
+    startPosition : 0 60 0 
+    endPosition : -10 110 -20
+    controls : 0 85 -20  -15 105 -10
+}
+
+fiber
+{
+    sequenceNumber : 20
+    residueName : GLU
+    color : 0 0 1
+    shape : bazier
+    startPosition : -13.2500000 60  -4.6913430 
+    endPosition : 10 110 -35
+    controls : 10 80 -25  10 100 -25
+}
+
+fiber
+{
+    sequenceNumber : 21
+    residueName : LER
+    color : 0 0 1
+    shape : bazier
+    startPosition : -10 110 -20 
+    endPosition : 10 110 -35
+    controls : -7.5 125 -25  7.5 125 -35
+}
+
+
+sheet
+{
+    sequenceNumber : 22
+    residueName : PRO
+    color : .8193 0 1
+    startPosition : 0 60 0
+    endPosition : 0 0 60
+    controls : 0 36 45  0 15 30
+}
+
+sheet
+{
+    sequenceNumber : 23
+    residueName : LYS
+    color : 1 0 0
+    startPosition : 15.3827281 37.5000000 -12.6858504
+    endPosition : 40.2606043 -30.0000000 70.1907786
+    controls : 40.5212086 -30.0000000 56.3815572   35.3909064 6.0000000 42.2861679
+}
+
+sheet
+{
+    sequenceNumber : 24
+    residueName : ALA
+    color : 0 1 1
+    startPosition : -13.2500000 60  -4.6913430
+    endPosition : -54.0000000 0.0000000 50.9807621
+    controls : -50.0000000 0.0000000 40.9615242   -42.5000000 20.0000000 38.9711432
+}
+
+
+
+helix
+{
+    sequenceNumber : 25
+    residueName : TYR
+    color : 0 .41 0
+    startPosition : 0 0 -130
+    endPosition : 20 0 130
+    controls : 0 0 -10   0 0 100
+    position : -110 0 30
+    orientation : 0 0
+}
+
+helix
+{
+    sequenceNumber : 26
+    residueName : THR
+    color : 1 .647 0
+    startPosition : 0 0 -130
+    endPosition : 20 0 130
+    controls : 0 0 -10   0 0 100
+    position : 3 0 110
+    orientation : 90 0
+}
